@@ -12,7 +12,7 @@
  * @throws {Error} If the offset is not a number.
  * @throws {Error} If the easing function is not a string.
  */
-export function smoothScroll(target, options) {
+export default function smoothScroll(target, options) {
     if (typeof target !== "string" && !(target instanceof HTMLElement)) { throw new Error("TypeError on smoothScroll(): provided target must be String or HTMLElement.") }
     if (options != undefined && (typeof options !== "object" || Array.isArray(options))) { throw new Error("TypeError on smoothScroll: provided options must be an Object.") }
     const defaults = {
