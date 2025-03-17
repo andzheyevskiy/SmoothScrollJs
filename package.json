@@ -1,0 +1,19 @@
+{
+    "name": "smoothscrolljs",
+    "version": "1.0.0",
+    "description": "Smoothly scrolls the page to the specified target element.",
+    "main": "index.cjs",
+    "module": "index.mjs",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andzheyevskiy/SmoothScrollJs.git"
+    },
+    "author": "Igor Andzheyevskiy Zakharyk",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/andzheyevskiy/SmoothScrollJs/issues"
+    },
+    "homepage": "https://github.com/andzheyevskiy/SmoothScrollJs#readme",
+    "keywords": ["smooth scroll", "scroll animation", "javascript"]
+  }
+  
