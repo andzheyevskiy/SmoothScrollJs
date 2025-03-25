@@ -15,7 +15,7 @@ npm install git+https://github.com/andzheyevskiy/SmoothScrollJs.git
 To use SmoothScrollJs in your project, you need to import and initialize it. Here is an example:
 
 ```javascript
-import smoothScroll from 'smooth-scroll-js';
+import smoothScroll from 'smoothscrolljs';
 
 // Initialize SmoothScroll with default options
 smoothScroll('#target');
